@@ -39,7 +39,31 @@ default: echo "voy a la universidad";
 
 #ciclo while
 
-$n =1
+$n =1;
+
+while($n <= 5){
+    echo $n;
+    $n++;   
+}
+ echo "<br> <br>";
+
+ # ciclo do while
+
+ $p=1;
+ do{
+     echo $p;
+     $p++;
+ }
+while($p <= 5);
+
+echo "<br> <br>";
+
+#ciclo for
+
+for ( $i =0; $i <= 5; $i++){
+    echo $i;
+}
+
 
 
 ?>
