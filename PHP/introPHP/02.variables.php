@@ -35,7 +35,7 @@ echo "<br></br>";
 
 # variable objeto
 $frutas =(object)["fruta1"=>"pera","fruta2"=>"manzana"];
-echo "esto es una variable objeto: $frutas=>fruta1<br>";
+echo "esto es una variable objeto: $frutas->fruta1<br>";
 var_dump($frutas);
 
  
