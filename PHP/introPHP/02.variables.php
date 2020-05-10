@@ -12,9 +12,16 @@ echo "esto es una variable texto: $palabra";
 
 # variable Boleana falso y verdadero 
 $boleana = true;
-echo "esto es una variable Texto: $palabra";
+echo "esto es una variable boleana: $boleana";
+echo "<br></br>";
+
+# variable arreglo 
+$colores = array("rojo","rosado","morado");
+echo "esto es una variable arreglo: $colore[0]";
+echo "<br></br>";
 
 
 
 
+ 
 ?>
