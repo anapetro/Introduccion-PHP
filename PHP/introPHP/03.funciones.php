@@ -14,7 +14,7 @@ function  despedida($adios){
     echo $adios."<br>";
 }
 
-despediad("adios");
+despedida("adios");
  
 #funciones con retorno 
 

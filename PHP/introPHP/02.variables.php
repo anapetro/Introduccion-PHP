@@ -28,7 +28,7 @@ echo "<br></br>";
 # variable arreglo con propiedades 
 #(especificar un nombre a cada indice )
 
-$verduras = array("verdura" =>"lechuga", =>"verdura2"=>"cebolla");
+$verduras = array("verdura1" =>"lechuga", "verdura2"=>"cebolla");
 echo "esto es una variable arreglo con propiedades: $verduras[verdura1]<br>";
 var_dump($verduras);
 echo "<br></br>";
