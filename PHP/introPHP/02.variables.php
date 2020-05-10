@@ -27,8 +27,9 @@ $verduras = array("verdura" =>"lechuga", =>"verdura2"=>"cebolla");
 echo "esto es una variable arreglo con propiedades: $verduras[verdura1]";
 echo "<br></br>";
 
-
-
+# variable objeto
+$frutas =(object)["fruta1"=>"pera","fruta2"=>"manzana"];
+echo "esto es una variable objeto: $frutas=>fruta1";
 
  
 ?>
