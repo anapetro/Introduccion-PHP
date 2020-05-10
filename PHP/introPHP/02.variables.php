@@ -20,6 +20,13 @@ $colores = array("rojo","rosado","morado");
 echo "esto es una variable arreglo: $colore[0]";
 echo "<br></br>";
 
+# variable arreglo con propiedades 
+#(especificar un nombre a cada indice )
+
+$verduras = array("verdura" =>"lechuga", =>"verdura2"=>"cebolla");
+echo "esto es una variable arreglo con propiedades: $verduras[verdura1]";
+echo "<br></br>";
+
 
 
 
