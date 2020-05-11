@@ -3,7 +3,7 @@
 #funciones sin parametros 
 function saludo(){
 
-    echo "hola"
+    echo "hola<br>";
 }
 
 saludo();
